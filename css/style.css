@@ -478,7 +478,7 @@ ul li {
 
 @media(max-width:1700px) {
   .about-us {
-    background-image: none;
+    background-image: none !important;
     padding: 100px 0;
     margin: 0;
   }
