@@ -70,7 +70,7 @@ body {
   white-space: nowrap;
 
   border: 1px solid rgba(0, 0, 0, 0.30);
-  background: rgba(0, 0, 0, 0.10);
+  background: #E0E0E0;
 
   color: var(--Black, #000);
   font-family: Inter;
