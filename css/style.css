@@ -8,7 +8,7 @@ body {
   font-style: normal;
   line-height: normal;
 }
-
+/* 
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,10 +30,11 @@ body {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-}
+} */
 
 .container {
   max-width: 1790px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -45,31 +46,31 @@ body {
   stroke-opacity: 0.6;
 }
 
-h1 {
+.main-service h1 {
   font-size: 48px;
   font-weight: 600;
   letter-spacing: 0.48px;
 }
 
-h2 {
+.main-service h2 {
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 0.4px;
 }
 
-h3 {
+.main-service h3 {
   font-size: 32px;
   font-weight: 500;
 }
 
-p,
-li {
+.main-service p,
+.main-service li {
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 0.22px;
 }
 
-ul li {
+.main-service ul li {
   list-style: disc;
 }
 
@@ -208,7 +209,7 @@ ul li {
 .about-us {
   background-repeat: no-repeat;
   background-size: 1400px 782px;
-  background-position: calc(50% - 550px) calc(0% - 100px);
+  background-position: calc(50% - 700px) calc(0% - 100px);
 
   padding: 100px 0;
   margin: -100px 0;
@@ -237,7 +238,6 @@ ul li {
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 35px;
-  margin-right: 150px;
 }
 
 .advantages {
@@ -264,7 +264,7 @@ ul li {
 }
 
 .advantages__item {
-  max-width: 285px;
+  max-width: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,8 +279,8 @@ ul li {
 
 .advantages__img {
   display: block;
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -411,8 +411,7 @@ ul li {
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid rgba(30, 47, 87, 0.30);
-  white-space: nowrap;
-
+  text-align: left;
   font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.24px;
